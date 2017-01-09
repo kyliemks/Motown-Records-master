@@ -39,6 +39,10 @@ a:visited, a:link {
 	text-decoration: none;
 }
 
+.nav:hover { 
+    cursor: pointer;
+}
+
 header { 
 	border-top: solid 8px #fff;
 	background-color: #456990; /*#ADD8E6*/
@@ -84,7 +88,7 @@ ul li {
   overflow: hidden;
 }
 
-#switcher li {
+/*#switcher li {
   float: left;
   width: 30px;
   height: 30px;
@@ -97,15 +101,15 @@ ul li {
 
 #switcher li.active {
   border-color: #456990;
-}
+}*/
 
-#grayButton {
+/*#grayButton {
   background: transparent;
 }
 
 #whiteButton {
   background: transparent;
-}
+}*/
 
 .collage {
 	background-image: url("../images/faces.jpg");
@@ -116,14 +120,14 @@ ul li {
 	overflow: hidden;
 }
 
-.museum {
+/*.museum {
 	background-image: url("../images/hitsville museum.jpg");
 	height: 500px;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 	overflow: hidden;
-}
+}*/
 
 /*marvin gaye quote*/
 
@@ -135,11 +139,13 @@ ul li {
 	padding: 25px;
 	border-top: solid 8px #fff;
 	border-bottom: solid 8px #fff;
+	font-color: black;
 }
 
 h2 {
 	font-weight: 700;
 	text-align: center;
+	color: black;
 }
 
 #marvin-gaye {

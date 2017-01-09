@@ -1,0 +1,614 @@
+* {
+	-moz-box-sizing: border-box; /* Firexfox */
+	-webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+	box-sizing: border-box; /* IE */
+	margin: 0;
+	padding: 0;
+}
+
+.round {
+	/* Safari 3-4, iOS 1-3.2, Android 1.6- */
+	-webkit-border-radius: 12px; 
+
+	/* Firefox 1-3.6 */
+	-moz-border-radius: 12px; 
+
+	/* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+	border-radius: 12px; 
+}
+
+/*navigation bar*/
+
+.motown-records {
+	color: #000;
+	font-size: 42px;
+	font-family: 'Monoton', cursive;
+	float: left;
+	margin-left: 45px;
+	margin-top: 40px;
+}
+
+.motown-records:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+	color: white;
+}
+
+a:visited, a:link {
+	color: #fff;
+	text-decoration: none;
+}
+
+header { 
+	border-top: solid 8px #fff;
+	background-color: #456990; /*#ADD8E6*/
+	overflow: hidden;
+	border-bottom: solid 8px #fff;
+	padding-top: 25px;
+}
+
+.nav-container {
+	float: right;
+	margin-right: 35px;
+}
+
+.nav {
+	float: left;
+	color: #fff;
+	padding-top: 40px;
+	margin: 20px 20px 20px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 900;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	width: 105px;
+	height: 105px;
+	text-align: center;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+.nav:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+/*collage image switcher*/
+
+#switcher {
+  margin: 400px 0px 100px 530px;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#switcher li {
+  float: left;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  border: 3px solid white;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+#switcher li.active {
+  border-color: #456990;
+}
+
+#grayButton {
+  background: transparent;
+}
+
+#whiteButton {
+  background: transparent;
+}
+
+.collage {
+	background-image: url("../images/faces.jpg");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+}
+
+.museum {
+	background-image: url("../images/hitsville museum.jpg");
+	height: 500px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	overflow: hidden;
+}
+
+/*marvin gaye quote*/
+
+.tagline-main {
+	background-color: #456990;
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-weight: 700;
+	padding: 25px;
+	border-top: solid 8px #fff;
+	border-bottom: solid 8px #fff;
+}
+
+h2 {
+	font-weight: 700;
+	text-align: center;
+}
+
+#marvin-gaye {
+	font-style: italic;
+	padding-left: 20px;
+}
+
+.white-bar {
+	background-color: #fff;
+	padding-bottom: 150px;
+}
+
+/* the sound that changed america*/
+
+#location {
+	background-color: #D3D3D3;
+	overflow: hidden;
+	border-bottom: solid 8px #fff;
+	padding-bottom: 30px;
+}
+
+.float{
+	overflow: hidden;
+	width: 100%;
+}
+
+h3 {
+	font-family: "Raleway", sans-serif;
+	font-size: 33px;
+	color: #fff;
+	text-align: center;
+	padding: 55px 0px 15px 0px;
+}
+
+.hitsville {
+	padding: 30px;
+	font-family: "Raleway", sans-serif;
+	margin: 0px 175px 0px 175px;
+	color: #808080;
+	font-size: 17px;
+}
+
+/*circles with artists container*/
+
+#artists {
+	background-color: #000;
+	overflow: hidden;
+	padding-bottom: 80px;
+	cursor: url('http://static1.squarespace.com/static/5446e19be4b090557e5db038/t/5781e116f7e0aba104d26d3e/1468129558387/cursor2.png'), auto !important;
+}
+
+/*circles*/
+
+#parent-container{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.circle div {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.circle{
+	margin: 55px 45px 30px 45px;
+	float: left;
+	border-radius: 50%;
+	height: 325px;
+	width: 25%;
+	opacity: 1;
+}
+
+.circle:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50); 
+}
+
+a span {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}
+
+.circle:hover span {
+  display: block;
+}
+
+.circle-1 {
+	background-image: url("../images/diana ross.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+
+}
+
+.circle-2 {
+	background-image: url("../images/the four tops.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.circle-3 {
+	background-image: url("../images/smokey robinson.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.circle-4 {
+	background-image: url("../images/marvin gaye.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+.circle-5 {
+	background-image: url("../images/al green.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.circle-6 {
+	background-image: url("../images/the temptations.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.circle-7 {
+	background-image: url("../images/barbara mcnair.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center center;
+}
+
+.circle-8 {
+	background-image: url("../images/lionel richie.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.circle-9 {
+	background-image: url("../images/syreeta wright.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.circle-10 {
+	background-image: url("../images/the pointer sisters.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+.circle-11 {
+	background-image: url("../images/stevie wonder.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.circle-12 {
+	background-image: url("../images/jackson 5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/*timeline*/
+
+#history {
+	background-color: #456990;
+	overflow: hidden;
+}
+
+time {
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 20px;
+	padding-left: 25px;
+}
+
+/*timeline element styles*/
+
+.timeline ul li {
+	list-style-type: none;
+	position: relative;
+	width: 4px;
+	margin: 0 auto;
+	padding-top: 50px;
+	background: #fff;
+}
+
+.timeline ul li::after {
+	background: #faebd7;
+	transition: background .5s ease-in-out;
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background: inherit;
+}
+
+.timeline ul li div {
+	position: relative;
+	bottom: 0;
+	width: 400px;
+	padding: 15px;
+	background: #000;
+}
+
+.timeline ul li div::before {
+	content: '';
+	position: absolute;
+	bottom: 7px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+}
+
+.timeline ul li:nth-child(odd) div {
+	left: 45px;
+}
+
+.timeline ul li:nth-child(odd) div::before {
+	left: -15px;
+	border-width: 8px 16px 8px 0;
+	border-color: transparent #000 transparent transparent;
+}
+
+.timeline ul li:nth-child(even) div {
+	left: -439px;
+}
+
+.timeline ul li:nth-child(even) div::before {
+	right: -15px;
+	border-width: 8px 0 8px 16px;
+	border-color: transparent transparent transparent #000;
+} 
+
+/*Hiding and revealing*/
+
+.timeline ul li::after {
+  background: #fff;
+  transition: background .5s ease-in-out;
+}
+ 
+.timeline ul li.in-view::after {
+  background: #fff;
+}
+ 
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+ 
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(200px,0,0);
+}
+ 
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-200px,0,0);
+}
+ 
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
+
+/*interactivity for the timeline*/
+
+@media screen and (max-width: 900px) {
+  .timeline ul li div {
+    width: 250px;
+  }
+  .timeline ul li:nth-child(even) div {
+    left: -289px; /*250+45-6*/
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .timeline ul li {
+    margin-left: 20px;
+  }
+   
+  .timeline ul li div {
+    width: calc(100vw - 91px);
+  }
+   
+  .timeline ul li:nth-child(even) div {
+    left: 45px;
+  }
+   
+  .timeline ul li:nth-child(even) div::before {
+    left: -15px;
+    border-width: 8px 16px 8px 0;
+    border-color: transparent #F45B69 transparent transparent;
+  }
+}
+
+/*playlists section*/
+
+.spacing {
+	font-family: "Helvetica", sans-serif;
+	font-size: 15px;
+	color: gray;
+	padding: 10px 0px 15px 23px;
+}
+
+#playlists {
+	background-color: #D3D3D3;
+	padding: 50px 0px 50px 180px;
+	overflow: hidden;
+	margin-top: 150px;
+}
+
+/*footer with contact form*/
+
+footer {
+	background-color: black;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+
+.rectangle {
+  	background-color: rgba(255, 255, 255, 0.90);
+  	width: 70%;
+  	margin-left: 180px;
+  	padding-bottom: 170px;
+  	border-radius: 25px;
+}
+
+h4 {
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+	padding: 80px 25px 40px 110px;
+	font-size: 35px;
+}
+
+.subscribe-pitch {
+	font-family: 'Raleway', sans-serif;
+	padding: 0px 25px 0px 110px;
+	font-size: 18px;
+	color: gray;
+}
+
+.me {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	padding-left: 110px;
+	font-size: 18px;
+	color: gray;
+	margin-top: 80px;
+}
+
+#name {
+	padding-bottom: 20px;
+	width: 35%;
+	margin-left: 110px;
+	margin-top: 10px;
+}
+
+.gmail {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	color: gray;
+	float: right;
+	margin-right: 387px;
+	margin-top: -19px;
+}
+
+#email {
+	padding-bottom: 20px;
+	width: 35%;
+	float: right;
+	margin-right: 120px;
+	margin-top: -38px;
+}
+
+.lingo {
+	font-size: 18px;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 110px;
+	font-size: 18px;
+	color: gray;
+	margin-top: 80px;
+}
+
+#message {
+	padding-bottom: 150px;
+	width: 74.5%;
+	margin-top: 10px;
+	margin-right: 50px;
+	margin-left: 110px;
+}
+
+.send {
+	padding: 10px 30px 10px 30px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 110px;
+	font-family: 'Raleway', sans-serif;
+	background-color: #ADD8E6;
+	font-size: 15px;
+	border-radius: 40px;
+}
+
+.icon-footer {
+	padding-bottom: 70px;
+}
+
+.icons {
+	padding: 10px;
+	overflow: hidden;
+	float: right;
+	margin-right: 490px;
+}
+
+.instagram {
+	float: left;
+	padding-right: 50px;
+	margin-top: 12px;
+}
+
+.facebook {
+	float: right;
+	padding-right: 50px;
+	color: white;
+	margin-top: 14px;
+}
+
+.twitter {
+	float: left;
+	padding-right: 50px;
+	padding-top: 5px;
+	margin-top: 3px;
+	margin-bottom: 5px;
+}
+
+
+
+
+
+ 
+
+
+
+
+
+
